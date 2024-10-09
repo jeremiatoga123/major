@@ -6,7 +6,7 @@ def read_userids_from_file(filename):
         return [line.strip() for line in file.readlines()]
 
 userids = read_userids_from_file('userid.txt')
-berear = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjc0OTc5ODE4MjEsImV4cCI6MTcyODU0NjA1OX0.xnRCRtaHanazivXV7-CkVG66BaF_1tSlYs9CzjYDHjY"  #Isi token Bearer kamu di sini
+berear = ""  #Isi token Bearer kamu di sini
 total_balance = 0
 total_accounts = 0
 
